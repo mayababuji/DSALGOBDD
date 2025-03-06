@@ -1,13 +1,5 @@
 import configparser
-# Create a ConfigParser object
-# config = configparser.ConfigParser()
-# # Read the configuration file
-# config.read('config.ini')
-# # Access values from the configuration file
-# application_name = config.get('DEFAULT', 'application_name')
-# print(application_name)
-# application_url = config.get('DEFAULT', 'application_url')
-# print(application_url)
+
 
 def read_config(file_path, section, key):
     """
