@@ -1,0 +1,12 @@
+allure-behave==2.13.5
+allure-python-commons 2.13.5
+attrs==25.1.0
+behave==1.2.6
+behave-html-formatter==0.9.10
+openpyxl==3.1.5
+pip==25.0.1
+selenium==4.29.0
+selenium-page-factory==2.7
+urllib3==2.3.0
+websocket-client==1.8.0
+wsproto==1.2.0
