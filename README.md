@@ -33,6 +33,7 @@ Whether you're new to test automation or practicing for your next coding intervi
    Selenium (for browser automation)
 
    Webdriver (e.g., ChromeDriver or GeckoDriver)
+
 ```markdown
 ##  Project Structure
 DSALGOBDD/
@@ -45,3 +46,13 @@ DSALGOBDD/
 │
 ├── requirements.txt          # Python dependencies
 └── README.md                 # You are here!
+
+
+## 📚 Helpful Resources
+
+- 📖 [Behave Official Docs](https://behave.readthedocs.io/)
+- 🌐 [Selenium Python Docs](https://selenium-python.readthedocs.io/)
+
+
+
+
