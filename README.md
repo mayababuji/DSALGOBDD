@@ -2,19 +2,9 @@
 
 
  ***Overview***
+ 
  This project uses Behave (a BDD testing framework for Python) to automate and validate the login functionality of the DS Algo Portal. All test scenarios are written in plain English (Gherkin language), making it beginner-friendly and easily understandable by non-developers too.
 Whether you're new to test automation or practicing for your next coding interview, this project helps you understand how to use BDD to ensure reliable access to data structures and algorithms practice portals.
-***Project Structure***
-DSALGOBDD/
-│
-├── features/
-│   ├── login.feature         # Gherkin scenarios for login
-│   ├── steps/
-│   │   └── login_steps.py    # Step definitions in Python
-│   └── environment.py        # Optional hooks (before/after scenarios)
-│
-├── requirements.txt          # Python dependencies
-└── README.md                 # You are here!
 
 ***Setup Instructions***
 1. Clone the repository:
@@ -27,11 +17,14 @@ DSALGOBDD/
 3.Install dependencies:
   pip install -r requirements.txt
 
- How to Run Tests
+***How to Run Tests***
+
 1. Run all BDD tests:
    behave
-2.Run specific feature:
-  behave features/<feature_name>.feature
+   
+2. Run specific feature:
+   behave features/<feature_name>.feature
+  
 ***Dependencies***
    Python 3.x
 
@@ -40,3 +33,15 @@ DSALGOBDD/
    Selenium (for browser automation)
 
    Webdriver (e.g., ChromeDriver or GeckoDriver)
+```markdown
+##  Project Structure
+DSALGOBDD/
+│
+├── features/
+│   ├── login.feature         # Gherkin scenarios for login
+│   ├── steps/
+│   │   └── login_steps.py    # Step definitions in Python
+│   └── environment.py        # Optional hooks (before/after scenarios)
+│
+├── requirements.txt          # Python dependencies
+└── README.md                 # You are here!
