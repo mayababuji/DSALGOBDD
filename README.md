@@ -1,4 +1,6 @@
-Behavior-Driven Test Automation for DS Algo Portal -https://dsportalapp.herokuapp.com/
+***Behavior-Driven Test Automation for DS Algo Portal -https://dsportalapp.herokuapp.com/***
+
+
  ***Overview***
  This project uses Behave (a BDD testing framework for Python) to automate and validate the login functionality of the DS Algo Portal. All test scenarios are written in plain English (Gherkin language), making it beginner-friendly and easily understandable by non-developers too.
 Whether you're new to test automation or practicing for your next coding interview, this project helps you understand how to use BDD to ensure reliable access to data structures and algorithms practice portals.
